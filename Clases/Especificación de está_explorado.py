@@ -12,7 +12,7 @@ def creacion_lista():
     return lista
 
 
-#hacemos una funcion que separa un segmento
+#Creamos una funcion para separar los segmentos
 def segmentos(lista, i):
     segmento = []
     segmento.append(lista[i])
@@ -23,20 +23,20 @@ def segmentos(lista, i):
     return segmento
 
 
-#funcion que hace una lista con todos los segmentos de la lista
-def seg_lista(lista, grupoSegmentos):
+#Creamos una funcion para crear una lista con los segmentos de la lista anterior
+def lista_segmento(lista, grupodeSegmentos):
     while len(lista) > 1:
         segmento = []
         segmento = segmentos(lista, 0)
         print(segmento)
-        grupoSegmentos.append(segmento)
-        print(" Esta es la lista que queda " + str(lista))
-    return grupoSegmentos
+        grupodeSegmentos.append(segmento)
+        print(" La lista resultante es " + str(lista))
+    return grupodeSegmentos
 
 
-#codigo principal
+#Terminamos de crear el codigo para ejecutar el algoritmo solicitado
 creacion_lista()
 print(lista)
-grupoSegmentos = []
-grupoSegmentos = seg_lista(lista, grupoSegmentos)
-print(grupoSegmentos)
+grupodeSegmentos = []
+grupodeSegmentos = lista_segmento(lista, grupodeSegmentos)(lista, grupodeSegmentos)
+print(grupodeSegmentos)
