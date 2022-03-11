@@ -6,8 +6,8 @@ lista = []
 
 #Definimos una funcion para crear una lista aleatoria
 def creacion_lista():
-    repe = random.randint(5, 15)
-    for i in range(repe):
+    elemento = random.randint(5, 15)
+    for i in range(elemento):
         num = random.randint(0, 10)
         lista.append(num)
     return lista
