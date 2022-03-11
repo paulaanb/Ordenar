@@ -1,4 +1,4 @@
-from __pycache__ import *
+
 variable= int(input("Por favor, seleccione el ejercicio que desea ejecutar (1-3):"))
 if variable==1:
   import Ejercicio1
