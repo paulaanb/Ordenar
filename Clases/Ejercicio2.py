@@ -1,3 +1,4 @@
+#Codigo para Ordenación por inserción dicotómica
 #Importamos las librerias y creamos la lista para hacer posteriormente la tabla
 import random
 lista = []
@@ -36,3 +37,5 @@ creacion_lista()
 print(lista)
 ordenar_lista(lista, 0)
 print(lista)
+
+

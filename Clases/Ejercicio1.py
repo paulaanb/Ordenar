@@ -1,3 +1,4 @@
+#Codigo para Especificación de está_explorado
 #Importamos las librerias y creamos una lista
 import random
 
