@@ -8,3 +8,9 @@ if variable ==3:
   import Ejercicio3
 else:
   print("Por favor, eliga uno de los tres ejercicios disponibles.")
+
+from Clases.Ejercicio1 import *
+from Clases.Ejercicio2 import *
+from Clases.Ejercicio3 import *
+
+if __name__ == 
