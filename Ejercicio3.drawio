@@ -1,0 +1,31 @@
+<mxfile host="65bd71144e">
+    <diagram id="7JgN34viFxdvBgTIdXLz" name="Página-1">
+        <mxGraphModel dx="709" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="CODIGO PARA ORDENACION TOPOLOGICA" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" parent="1" vertex="1">
+                    <mxGeometry x="230" y="30" width="360" height="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="PASO 1" style="swimlane;startSize=20;" parent="2" vertex="1">
+                    <mxGeometry y="20" width="120" height="460" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;font style=&quot;font-size: 11px&quot;&gt;-DEFINIMOS LAS TAREAS Y SUS CORRESPONDIENTES&lt;br&gt;RESTRICCIONES PARA AÑADIRLAS A LA LISTA&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3">
+                    <mxGeometry y="30" width="120" height="430" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="PASO 2" style="swimlane;startSize=20;" parent="2" vertex="1">
+                    <mxGeometry x="120" y="20" width="120" height="460" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="-COMPROBACION DEL CORRECTO FUNCIONAMIENTO SIN NECESIDAD DE RESTRICCIONES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="4">
+                    <mxGeometry y="20" width="120" height="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="PASO 3" style="swimlane;startSize=20;" parent="2" vertex="1">
+                    <mxGeometry x="240" y="20" width="120" height="460" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="5">
+                    <mxGeometry y="30" width="120" height="430" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
